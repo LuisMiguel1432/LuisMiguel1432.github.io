@@ -1,0 +1,35 @@
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-intro{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    animation: fadeInUp 0.7s ease-in-out;
+}
+.greetings{
+    font-size: 1.5rem;
+    color: #ff5277;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+    
+}
+.subtitle{
+    font-size: 1.5rem;
+    color: rgb(168, 168, 168);
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
